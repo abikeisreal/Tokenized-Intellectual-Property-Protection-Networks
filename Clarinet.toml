@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/infringement-detection.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.licensing-management]
+path = 'contracts/licensing-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
